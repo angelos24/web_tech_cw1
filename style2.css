@@ -1,0 +1,282 @@
+body {
+    text-align: center;
+    background-color: #577492;
+}
+
+@font-face {
+    font-family: "Amita-Regular";
+    src: url(../fonts/Amita-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Andika-R";
+    src: url(../fonts/Andika-R.ttf);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#result {
+    background-color: #577492;
+    color: #eee;
+    padding: 25px;
+    text-align: justify;
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+
+#results .item {
+	padding: 3px;
+	font-family: Helvetica;
+    color: #eee;
+    
+	border-bottom: 1px solid #c0c0c0;
+}
+
+#results .item:last-child {
+	border-bottom: 0px;
+}
+
+#results .item:hover {
+	background-color: #f44336;
+	cursor: pointer;
+}
+
+
+#data {
+    background-color: #577492;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.mail-form {
+    width: 25%;
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #577492;
+}
+
+a:link,
+a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+.shadow {
+    position: relative;
+}
+
+.pass {
+    margin: 26px 0;
+}
+
+.mail-form input[type="search"] {
+    padding: 13px 10px;
+    width: 94%;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background: #eee;
+    font-family: 'Andika-R', sans-serif;
+}
+
+.mail-form input[type="submit"] {
+    font-size: 20px;
+    padding: 10px 35px;
+    border: none;
+    text-transform: capitalize;
+    outline: none;
+    border-radius: 14px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background-color: #eee;
+    color: black;
+    cursor: pointer;
+    margin: 0 auto;
+    font-family: 'Andika-R', sans-serif;
+}
+
+.footer {
+    text-align: center;
+    padding: 50px 15px;
+}
+
+.footer p {
+    font-size: 16px;
+    color: #fff;
+    margin: 0px;
+}
+
+.footer p a:hover {
+    color: #fff;
+}
+
+.footer p a {
+    color: rgba(160, 35, 66, 50);
+}
+
+h3 {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+
+/*-- responsive media queries --*/
+
+@media screen and (max-width:1440px) {
+    .header {
+        padding: 55px 0;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .header h1 {
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .header {
+        padding: 50px 0;
+    }
+    .header h1 {
+        font-size: 55px;
+    }
+    .mail-form {
+        width: 29%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .mail-form {
+        width: 29%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .mail-form {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .header h1 {
+        font-size: 50px;
+    }
+    .mail-form {
+        width: 36%;
+    }
+    .mail-form input[type="text"] {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .mail-form {
+        width: 38%;
+    }
+}
+
+@media screen and (max-width:736px) {
+    .mail-form {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:667px) {
+    .mail-form {
+        width: 44%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .header {
+        padding: 40px 0;
+    }
+    .header h1 {
+        font-size: 50px;
+    }
+    .mail-form {
+        width: 46%;
+    }
+    .mail-form input[type="submit"] {
+        font-size: 18px;
+    }
+    .footer p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .header {
+        padding: 30px 0;
+    }
+    .header h1 {
+        font-size: 42px;
+    }
+    .mail-form {
+        width: 56%;
+        padding: 34px;
+    }
+    .mail-form input[type="text"] {
+        padding: 11px 10px;
+    }
+    .mail-form input[type="submit"] {
+        font-size: 16px;
+    }
+    .footer p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .header h1 {
+        font-size: 38px;
+    }
+    .mail-form {
+        width: 62%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .header h1 {
+        font-size: 36px;
+    }
+    .mail-form {
+        width: 66%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .header h1 {
+        font-size: 32px;
+    }
+    .mail-form {
+        width: 70%;
+        padding: 16px;
+    }
+    .mail-form input[type="text"] {
+        width: 90%;
+    }
+}
